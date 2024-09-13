@@ -120,3 +120,4 @@ o	Cart page showing selected products with quantities, prices, and sizes.
 o	A chatbot that interacts with users for product searches, cart management, and navigation.
  
 
+link to folders and file : https://github.com/Cubsub/E-Commerce-Site-for-Sportswear-with-chatbot-/tree/master
