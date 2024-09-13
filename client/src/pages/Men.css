@@ -1,0 +1,64 @@
+/* client/src/pages/Men.css */
+.men-container {
+  padding: 2rem;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.product-collection {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container fills the viewport height */
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Add product card styling */
+.product-grid .product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-grid .product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Disable hover effect when the card is zoomed */
+.product-card.zoomed:hover {
+  transform: none;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer .social-icons {
+  margin-bottom: 1rem;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #ff6b6b;
+}
+
+.footer p {
+  margin: 0;
+}

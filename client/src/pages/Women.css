@@ -1,0 +1,26 @@
+/* client/src/pages/Women.css */
+.women-container {
+  padding: 2rem;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Add product card styling */
+.product-grid .product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-grid .product-card:hover {
+  transform: scale(1.05);
+}

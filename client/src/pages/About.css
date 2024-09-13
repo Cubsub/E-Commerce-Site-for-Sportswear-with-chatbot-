@@ -1,0 +1,19 @@
+/* client/src/pages/About.css */
+.about-container {
+  padding: 2rem;
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}

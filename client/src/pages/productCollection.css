@@ -1,0 +1,15 @@
+/* ProductCollection.css */
+.product-collection {
+  padding: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.product-collection h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
